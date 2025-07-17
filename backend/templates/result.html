@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Analysis Result</title>
+</head>
+<body>
+  <h2>Image Analysis Result</h2>
+
+  <p><strong>Predicted Class:</strong> {{ object_class }}</p>
+  <p><strong>Count of Objects:</strong> {{ count }}</p>
+
+  <h3>Detected Objects in Image:</h3>
+  <img src="{{ image_url }}" alt="Detected Image" width="400">
+</body>
+</html>
